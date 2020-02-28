@@ -77,7 +77,7 @@ public class ninjaDoStuff : MonoBehaviour
                 {
                     letGo = true;
                 }
-                if(Mathf.Abs(this.GetComponent<Rigidbody2D>().velocity.y) <.00000000001)
+                if(Mathf.Abs(this.GetComponent<Rigidbody2D>().velocity.y) <.001)
                 {
                     onFloor = true;
                     jumpCount = intialJumpCount;
